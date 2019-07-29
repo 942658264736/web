@@ -1,0 +1,24 @@
+{
+    "clearInterval(intervalObject)":"取消一次定时器",
+    "clearTimeout(timeoutObject)":"取消周期定时器",
+    "clearImmediate(immediateObject)":"取消立即执行定时器",
+    "decodeURI(URI)":"将URI中查询字符串部分转换为明文",
+    "encodeURI(str)":"将str中查询字符串转译为URI形式",
+    "escape(str)":"用于转义任何不能被明文发送的字符",
+    "eval(str)":"将字符串当作语句来执行",
+    "isFinite(var)":"检查是否是有穷大的数字",
+    "isNaN(var)":"检查是否是NaN",
+    "parseInt(str)":"解析一个字符串并返回一个整数",
+    "parseFloat(str)":"解析字符串并返回一个浮点数",
+    "setImmediate(callback)":"立即执行的异步函数",
+    "setInterval(callback,time)":"每隔time毫秒后执行一次callback，返回一intervalObject",
+    "setTimeout(callback,time)":"距离time毫秒后执行一次callback，返回一个timeoutObject",
+    "unescape(unicode)":"将转义的字符串转换为明文形式。",
+    "全局变量":{
+        "require(path)":"导入模块",
+        "__dirname":"文件所在路径",
+        "exports":"是module.exports的一个引用",
+        "module":"模块",
+        "__filename":"文件完整路径+文件名"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "log(data1[,data2...])":"标准输出",
+    "info(data1[,data2...])":"输出消息",
+    "error(data1[,data2...])":"输出错误",
+    "warn(data1[,data2...])":"输出警告",
+    "time(str)":"记时开始，str是个字符串，并保存在名为str的变量当中",
+    "timeEnd(str)":"记时结束，并打印时间（毫秒数）"
+}

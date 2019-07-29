@@ -1,0 +1,17 @@
+{
+    "git config --global user.name <user_name>" :"设置全局用户名",
+    "git config --global user.eamil <email_address>":"设置全局邮箱",
+    "git config --global core.editor <editor_name>":"设置默认文本编辑器",
+    "git config --list":"检查配置信息",
+    "git config <key>":"检查Git的某一项配置，如user.name",
+    "git help <verb>":"查询离线手册，会在浏览器中打开",
+    "git <verb> --help":"查询离线手册，会在浏览器中打开",
+    "git init":"初始化仓库",
+    "git add <file1_name> [file2_name]":"跟踪文件",
+    "git clone <url> [new_name]":"克隆仓库(包含每一个版本)，可以重命名克隆的仓库",
+    "git status [-s / --short]":"查看目录下文件处于什么状态，简约模式",
+    "git diff":"只显示尚未暂存的改动",
+    "git diff --cached":"查看已暂存的将要提交的内容",
+    "git diff --staged":"查看已暂存的将要提交的内容",
+    "git commit -m <message>":"提交暂存区内容到本地仓库"
+}

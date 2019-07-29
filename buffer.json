@@ -1,0 +1,6 @@
+{
+    "Buffer(args)":"构造函数，当接受一个正整数时表示缓冲区长度，数据必须是字符串或者对象，否则表示缓冲区内的填充数据，直接分配系统内存",
+    "alloc(size,data)":"创建Buffer对象",
+    "write(data[,index])":"向对象中写入数据，index表示位置，默认为0",
+    "toString('charset')":"根据charset将Buffer对象转换为字符串，默认为（utf-8）"
+}

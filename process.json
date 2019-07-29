@@ -1,0 +1,14 @@
+{
+    "arch":"获取CPU架构",
+    "cwd()":"获取当前所在工作目录",
+    "env":"获取操作系统环境变量",
+    "execPath":"获取解释器所在目录",
+    "kill(pid)":"向指定进程ID号发送退出信号",
+    "memoryUsage()":["获取内存使用信息，单位是字节（B）","heapTotal和heapTotal代表V8的内存使用内容","external代表v8管理的绑定到JS的c++对象的内存使用情况","rss是当前进程所分配的全部物理内存"],
+    "nextTick(callback[,...args])":"将callback添加到下一个时间点的队列，即当轮任务完成后立即执行callback",
+    "pid":"获取进程ID号",
+    "platform":"获取操作系统类型",
+    "uptime()":"获取解释器运行时间",
+    "version":"获取node.js的版本信息",
+    "versions":"获取node.js相关版本信息"
+}

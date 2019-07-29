@@ -1,0 +1,28 @@
+{
+    "express()":{
+        "express()":"创建服务器并返回",
+        "listen(port,callback)":"监听端口，并执行回调函数，返回一个Server对象",
+        "use(path,router)":"把router挂载到path上",
+        "get(path,callback(req,res)":"响应get请求",
+        "post(path,callback(req,res)":"响应post请求"
+    },
+    "Server":{
+        "address()":"返回一个对象，包含域名，协议版本，端口"
+    },
+    "Request":{
+        "query":"查询字符串",
+        "method":"请求方法",
+        "params":"路由参数",
+        "on('data',callback(data))":"监听post请求的数据data"
+    },
+    "Router":{
+        "get(path,callback(req,res)":"响应get请求",
+        "post(path,callback(req,res)":"响应post请求",
+        "all(path,callback(req,res)":"响应所有请求"
+    },
+    "Response":{
+        "send(msg)":"发送响应字符串",
+        "sendFile()":"发送响应文件",
+        "redirect(url)":"网址重定向"
+    }
+}
