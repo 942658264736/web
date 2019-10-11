@@ -24,7 +24,9 @@
     "git log -<number>":"number查看最近的提交数量",
     "git log --stat":"查看每次提交的简略的统计信息",
     "git log --grep <key>":"查找与key相关的提交",
+    "git remote rm origin":"删除已选中的远程仓库",
     "git remote add origin 'git地址'":"选择远程仓库",
+    "git remote origin set-url [url]":"更改远程仓库",
     "git push -u origin master":"推送至远程仓库"
 }
 
