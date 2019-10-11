@@ -1,0 +1,14 @@
+
+    {
+        "href":"地址栏内容，更改可跳转",
+        "protocol":"协议",
+        "host":"主机名+端口",
+        "port":"端口",
+        "hostname":"主机名",
+        "pathname":"相对路径",
+        "search":"查询字符串",
+        "hash":"锚链接地址",
+        "replace(url)":"替换网址，不能回退",
+        "reload()":"普通刷新",
+        "reload(true)":"强制刷新"
+    }

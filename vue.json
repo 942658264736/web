@@ -1,0 +1,12 @@
+{
+    "安装cnpm":"npm i -g cnpm --registry=\"https://registry.npm.taobao.org\"",
+    "安装脚手架":"npm i -g @vue/cli",
+    "新建空白项目":"vue create 项目名称，使用空格选中",
+    "项目工程资源目录":"src",
+    "路由配置":"router.js",
+    "导入文件":"使用import或者require",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+}
