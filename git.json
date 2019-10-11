@@ -8,6 +8,7 @@
     "git <verb> --help":"查询离线手册，会在浏览器中打开",
     "git init":"初始化仓库",
     "git add <file1_name> [file2_name]":"跟踪文件",
+    "git add .":"跟踪所有未跟踪文件",
     "git clone <url> [new_name]":"克隆仓库(包含每一个版本)，可以重命名克隆的仓库",
     "git status [-s / --short]":"查看目录下文件处于什么状态，简约模式",
     "git diff":"只显示尚未暂存的改动",
@@ -22,6 +23,8 @@
     "git log -p":"显示每次提交的内容差异",
     "git log -<number>":"number查看最近的提交数量",
     "git log --stat":"查看每次提交的简略的统计信息",
-    "git log --grep <key>":"查找与key相关的提交"
+    "git log --grep <key>":"查找与key相关的提交",
+    "git remote add origin 'git地址'":"选择远程仓库",
+    "git push -u origin master":"推送至远程仓库"
 }
 
